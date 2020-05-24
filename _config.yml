@@ -1,2 +1,7 @@
 theme: jekyll-theme-midnight
-layout: default
+defaults:
+  -
+    scope:
+      path: "/.index" # an empty string here means all files in the project
+    values:
+      layout: "default"
