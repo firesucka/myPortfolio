@@ -1,0 +1,47 @@
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: purple;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: linked ;
+}
+
+.title {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.articlelist {
+  margin-left: 20%;
+}
+
+.picture {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+p {
+  font-size: 14pt;
+  text-align: justify;
+  color: rgba(255, 4, 100, 0.5);
+  max-width: 100%;
+  height: auto;
+  margin: auto 20% auto;
+}
+
+.article p {
+
+}
