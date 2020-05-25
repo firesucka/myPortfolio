@@ -1,7 +1,0 @@
-theme: jekyll-theme-midnight
-defaults:
-  -
-    scope:
-      path: "myPortfolio/index.html" # an empty string here means all files in the project
-    values:
-      layout: "default"
