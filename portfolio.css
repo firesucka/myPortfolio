@@ -10,11 +10,11 @@ a {
 }
 
 p {
-  font-size: 1.25vw, 2vmin;
+  font-size: 1.25vw, 1.25vmin;
   text-align: justify;
   hyphens: auto;
   color: white;
-  max-width: 100vw;
+  max-width: 100%;
   height: auto;
   margin: auto 20% auto;
 }
@@ -27,7 +27,7 @@ p {
 
 .navbar a {
   float: left;
-  font-size: 2vw, 3vmin;
+  font-size: 2vw, 2vmin;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -45,7 +45,7 @@ p {
 .articlelist {
   margin-left: 20%;
   margin-right: 20%;
-  font-size: 2vw, 4vmin;
+  font-size: 2vw, 2vmin;
 
 }
 
