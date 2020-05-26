@@ -6,46 +6,44 @@ body {
 }
 
 a {
-  color: white;
+  color: inherit;
 }
 
 p {
   font-size: 2.5vmin;
   text-align: justify;
   hyphens: auto;
-  color: white;
+  color: inherit;
   max-width: 100%;
   height: auto;
   margin: auto 20% auto;
 }
 
-.navbar {
-  overflow: hidden;
+.welcome {
   background-color: black;
-  box-shadow: 10px 10px 2px rgba(50, 50, 50, 1);
-}
-
-.navbar a {
-  float: left;
+  box-shadow: 0vmin 0.5vmin 2vmin rgba(255, 255, 255, 0.5);
   font-size: 2vw;
   font-weight: bold;
   text-align: center;
-  color: white;
-  padding: 30px 16px;
+  color: inherit;
+  padding: 5vmin 10vmin;
   text-decoration: none;
   cursor: linked;
+}
+
+.introduction {
+  padding-top: 2vw;
 }
 
 .title {
   display: inherit;
   text-align: center;
-  margin-top: 5%;
   font-size: 2vw;
 }
 
 .articlelist {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 20vw;
+  margin-right: 20vw;
   font-size: 2vw;
 }
 
@@ -55,10 +53,9 @@ p {
   display: grid;
 }
 
-
 .article {
   background-color: rgba(100, 100, 100, 0.5);
-  margin: auto 10% auto;
+  margin: auto 10vw auto;
   box-shadow: 300px 300px 2px rgba(50, 50, 50, 1)
 }
 
@@ -69,4 +66,14 @@ p {
 .article a {
   font-size: 2.5vmin;
   float: right;
+}
+
+.gmail {
+  max-width: 1em;
+  max-height: 1em;
+}
+
+.upwork {
+  max-width: 1em;
+  max-height: 1em;
 }
