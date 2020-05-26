@@ -10,7 +10,7 @@ a {
 }
 
 p {
-  font-size: 1.25vmin;
+  font-size: 2.5vmin;
   text-align: justify;
   hyphens: auto;
   color: white;
@@ -27,7 +27,7 @@ p {
 
 .navbar a {
   float: left;
-  font-size: 2vw, 2vmin;
+  font-size: 2vw;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -40,13 +40,13 @@ p {
   display: inherit;
   text-align: center;
   margin-top: 5%;
+  font-size: 2vw;
 }
 
 .articlelist {
   margin-left: 20%;
   margin-right: 20%;
-  font-size: 2vw, 2vmin;
-
+  font-size: 2vw;
 }
 
 .media {
@@ -64,4 +64,9 @@ p {
 
 .article p {
   padding: 1%;
+}
+
+.article a {
+  font-size: 2.5vmin;
+  float: right;
 }
