@@ -1,3 +1,10 @@
+html {
+  font-size: 16px
+    @media only screen and (max-width: 991px) {
+      font-size: 14px;
+    }
+}
+
 body {
   font-family: 'Share Tech Mono', monospace;
   background-color: rgb(50, 50, 50);
@@ -10,7 +17,7 @@ a {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   text-align: justify;
   hyphens: auto;
   color: white;
@@ -45,7 +52,7 @@ p {
 .articlelist {
   margin-left: 20%;
   margin-right: 20%;
-  font-size: 2em;
+  font-size: 2rem;
 
 }
 
