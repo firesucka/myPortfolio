@@ -10,7 +10,7 @@ a {
 }
 
 p {
-  font-size: 14pt;
+  font-size: 1.25em;
   text-align: justify;
   hyphens: auto;
   color: white;
@@ -27,7 +27,7 @@ p {
 
 .navbar a {
   float: left;
-  font-size: 26px;
+  font-size: 2em;
   font-weight: bold;
   text-align: center;
   color: white;
