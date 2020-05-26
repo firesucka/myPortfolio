@@ -1,10 +1,3 @@
-html {
-  font-size: 16px
-    @media only screen and (max-width: 991px) {
-      font-size: 14px;
-    }
-}
-
 body {
   font-family: 'Share Tech Mono', monospace;
   background-color: rgb(50, 50, 50);
@@ -17,7 +10,7 @@ a {
 }
 
 p {
-  font-size: 1.25vw;
+  font-size: 1.25vw, 2vmin;
   text-align: justify;
   hyphens: auto;
   color: white;
@@ -34,7 +27,7 @@ p {
 
 .navbar a {
   float: left;
-  font-size: 2vw;
+  font-size: 2vw, 3vmin;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -52,12 +45,12 @@ p {
 .articlelist {
   margin-left: 20%;
   margin-right: 20%;
-  font-size: 2vw;
+  font-size: 2vw, 4vmin;
 
 }
 
 .media {
-  max-width: 50vw;
+  max-width: 50%;
   margin: auto;
   display: grid;
 }
