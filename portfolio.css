@@ -3,6 +3,7 @@ body {
   background-color: rgb(50, 50, 50);
   color: white;
   text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.5);
+  hyphens: auto;
 }
 
 a {
@@ -38,7 +39,7 @@ p {
 .title {
   display: inherit;
   text-align: center;
-  font-size: 2vw;
+  font-size: 5vmin;
 }
 
 .articlelist {
@@ -49,14 +50,17 @@ p {
 
 .media {
   max-width: 50%;
+  max-height: 50%;
   margin: auto;
   display: grid;
+  border-style: groove;
+  border-width: thick;
 }
 
 .article {
   background-color: rgba(100, 100, 100, 0.5);
+  box-shadow: 300px 300px 2px rgba(50, 50, 50, 1);
   margin: auto 10vw auto;
-  box-shadow: 300px 300px 2px rgba(50, 50, 50, 1)
 }
 
 .article p {
@@ -66,6 +70,10 @@ p {
 .article a {
   font-size: 2.5vmin;
   float: right;
+}
+
+.introduction {
+  text-align: left;
 }
 
 .gmail {
